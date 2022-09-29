@@ -3,7 +3,7 @@ import Nav from "./../components/Nav";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="contact">
       <Nav />
       <h2>Contact</h2>
     </div>

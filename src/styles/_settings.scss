@@ -1,6 +1,17 @@
+$font-default: "font-default", sans-serif;
+
+$color-1: rgb(102, 102, 102);
+$color-2: gold;
+$color-3: goldenrod;
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: rgb(102, 102, 102);
 }
