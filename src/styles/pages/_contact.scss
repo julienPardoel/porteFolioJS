@@ -1,7 +1,8 @@
 .contact {
   background: $color-1;
   height: 100vh;
-  h2 {
+  .contact-container {
     @include flexCenter;
+    height: 100vh;
   }
 }

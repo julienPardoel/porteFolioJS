@@ -1,7 +1,8 @@
 .creations {
   background: $color-1;
   height: 100vh;
-  h2 {
+  .creations-container {
     @include flexCenter;
+    height: 100vh;
   }
 }

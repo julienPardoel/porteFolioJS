@@ -5,7 +5,9 @@ const Creations = () => {
   return (
     <div className="creations">
       <Nav />
-      <h2>Créations</h2>
+      <div className="creations-container">
+        <h2>Créations</h2>
+      </div>
     </div>
   );
 };
