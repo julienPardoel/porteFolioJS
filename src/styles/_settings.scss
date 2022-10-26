@@ -1,4 +1,11 @@
-$font-default: "font-default", sans-serif;
+// $font-default: "font-default", sans-serif;
+
+@font-face {
+  font-family: "RobotoMono";
+  src: url(../assets/fonts/RobotoMono-VariableFont_wght.ttf);
+}
+
+$fontRM: "RobotoMono";
 
 $color-1: rgb(102, 102, 102);
 $color-2: gold;
@@ -15,4 +22,5 @@ $color-3: goldenrod;
   padding: 0;
   box-sizing: border-box;
   overflow: hidden;
+  font-family: $fontRM;
 }
